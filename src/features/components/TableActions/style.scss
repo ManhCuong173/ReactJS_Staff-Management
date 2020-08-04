@@ -1,0 +1,20 @@
+.action__wrapper {
+    .search__wrapper {
+        padding:2rem;
+        .search__form {
+            width: 60%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-gap: 0.9rem;
+            padding: 1rem;
+         
+        }
+    }
+
+    .action__buttons {
+        padding: .5rem;
+        button {
+            margin: 0 .2rem;
+        }
+    }
+}

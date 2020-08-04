@@ -1,0 +1,22 @@
+.emp__wrapper{
+    $base-color: #FFF; 
+    height: 100%;
+    
+    .emp__header {
+        background-color: $base-color;
+        height: auto;
+    }
+
+    .emp__body {
+        height: 100%;
+        background: $base-color;
+        padding: 0 50px;
+        
+        .emp__body--layout {
+            flex-wrap: nowrap;
+            height: 100%;
+        }
+    }
+
+
+}

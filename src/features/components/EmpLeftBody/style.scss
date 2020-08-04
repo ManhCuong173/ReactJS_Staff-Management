@@ -1,0 +1,13 @@
+.emp__content--left-side{
+    $base-color--white: #FFFF;
+    $base-color--black: #1a1a1a;
+
+    padding: .2rem;
+    height: 100%;
+
+    .emp__content--inner {
+        padding: .3rem;
+        height: inherit;
+        border: 1px solid $base-color--black;
+}
+}
